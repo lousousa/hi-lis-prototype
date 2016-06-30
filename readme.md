@@ -1,8 +1,7 @@
 # Hi Lis
-#### Game prototype
-#### JavaScript/jQuery version ~ 2013
+#### Game prototype JavaScript/jQuery version ~ 2013
 
-Play [this version](https://lousousa.github.io/hi-lis-prototype)!
+Play this [prototype version](https://lousousa.github.io/hi-lis-prototype)!
 
 OR
 
