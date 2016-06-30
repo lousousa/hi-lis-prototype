@@ -1,0 +1,87 @@
+@font-face{
+	font-family: 'Free Pixel';
+	src: url('../fonts/Free-Pixel.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{ background-color: #fff; position: absolute; margin: 0; font-family: 'Free Pixel'; }
+#game{ width: 768px; height: 480px; overflow: hidden; position: relative; background-color: #161616 }
+.plain{ position: absolute; }
+#enemies-1, #enemies-2{ top: 0; left: 0; }
+.cell{ position: absolute; width: 48px; height: 48px; background-position: -432px 0px; }
+.enemy{ position: absolute; width: 96px; height: 96px; }
+.enemy-collider{ position: absolute; width: 72px; height: 60px; top: 18px; left: 12px;
+	z-index: 2; border-bottom-right-radius: 36px; border-bottom-left-radius: 36px; }
+.cell.theme-1, .box-talk.theme-1, .enemy.theme-1, .bg.theme-1{ background-image: url(../imgs/theme-1.png); }
+.cell.theme-2, .box-talk.theme-2, .enemy.theme-2, .bg.theme-2{ background-image: url(../imgs/theme-2.png); }
+.bg{ height: 240px !important; bottom: 0; }
+.enemy{ z-index: 1; }
+.lim { position: absolute; }
+.lim-top{ top: 0; left: 0; width: 48px; height: 1px; }
+.lim-full{ top: 0; left: 0; width: 48px; height: 48px; }
+#player .box-talk{ width: 72px; height: 48px; position: absolute; background-position: -384px -288px; 
+	top: -60px; left: 24px; color: white; font-family: 'courier new'; color: white;
+	line-height: 48px; text-align: center; font-size: 0px; }
+#player .box-talk div{  font-size: 12px; }
+#player{ z-index: 2; }
+
+#debug{
+	width: 768px;
+	height: 100px;
+	display: none;
+	margin-top: 20px;
+	background-color: #000;
+	box-sizing: border-box;
+	padding: 10px;
+	font-family: 'courier new';
+	color: #2ECC71;
+	font-size: 12px;
+}
+
+.main-title{
+	width: 100%;
+	height: 100%;
+	background-image: url(../imgs/main-title.png);
+	position: relative;
+}
+.intro{
+	width: 100%;
+	height: 100%;
+	background-image: url(../imgs/intro.png);
+	position: relative;
+	display: none;
+}
+.ending-screen{
+	width: 100%;
+	height: 100%;
+	background-image: url(../imgs/ending-screen.png);
+	display: none;	
+}
+.main-title .play-btn,
+.intro .skip-btn{
+	text-align: center;
+	background-color: #111;
+	box-sizing: border-box;
+	border: 1px solid #444;
+	color: white;
+	cursor: pointer;
+	width: 168px;
+	position: absolute;
+	bottom: 60px;
+	left: 300px;
+	padding: 10px 0 10px 0;
+}
+.main-title .play-btn:hover,
+.intro .skip-btn:hover{
+	background-color: #000;	
+}
+.intro .text,
+.ending-screen .text{
+	color: white;
+	font-size: 16px;
+	box-sizing: border-box;
+	padding: 40px;
+	padding-top: 250px;
+	text-align: justify;
+}
