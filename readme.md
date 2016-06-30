@@ -1,6 +1,8 @@
 # Hi Lis
 #### Game prototype JavaScript/jQuery version ~ 2013
 
+![Hi Lis](https://lousousa.github.io/hi-lis-prototype/hi-lis-featured-image.jpg "Hi Lis")
+
 Play this [prototype version](https://lousousa.github.io/hi-lis-prototype)!
 
 OR
