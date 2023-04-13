@@ -5,8 +5,8 @@
 	font-style: normal;
 }
 
-body{ background-color: #fff; position: absolute; margin: 0; font-family: 'Free Pixel'; }
-#game{ width: 768px; height: 480px; overflow: hidden; position: relative; background-color: #161616 }
+body{ position: absolute; margin: 0; font-family: 'Free Pixel'; }
+#game{ background-color: #161616; width: 768px; height: 480px; overflow: hidden; position: relative; }
 .plain{ position: absolute; }
 #enemies-1, #enemies-2{ top: 0; left: 0; }
 .cell{ position: absolute; width: 48px; height: 48px; background-position: -432px 0px; }
@@ -20,7 +20,7 @@ body{ background-color: #fff; position: absolute; margin: 0; font-family: 'Free 
 .lim { position: absolute; }
 .lim-top{ top: 0; left: 0; width: 48px; height: 1px; }
 .lim-full{ top: 0; left: 0; width: 48px; height: 48px; }
-#player .box-talk{ width: 72px; height: 48px; position: absolute; background-position: -384px -288px; 
+#player .box-talk{ width: 72px; height: 48px; position: absolute; background-position: -384px -288px;
 	top: -60px; left: 24px; color: white; font-family: 'courier new'; color: white;
 	line-height: 48px; text-align: center; font-size: 0px; }
 #player .box-talk div{  font-size: 12px; }
@@ -56,7 +56,7 @@ body{ background-color: #fff; position: absolute; margin: 0; font-family: 'Free 
 	width: 100%;
 	height: 100%;
 	background-image: url(../imgs/ending-screen.png);
-	display: none;	
+	display: none;
 }
 .main-title .play-btn,
 .intro .skip-btn{
@@ -74,7 +74,7 @@ body{ background-color: #fff; position: absolute; margin: 0; font-family: 'Free 
 }
 .main-title .play-btn:hover,
 .intro .skip-btn:hover{
-	background-color: #000;	
+	background-color: #000;
 }
 .intro .text,
 .ending-screen .text{
@@ -82,6 +82,5 @@ body{ background-color: #fff; position: absolute; margin: 0; font-family: 'Free 
 	font-size: 16px;
 	box-sizing: border-box;
 	padding: 40px;
-	padding-top: 250px;
 	text-align: justify;
 }
